@@ -1,0 +1,126 @@
+/*
+ *
+ * Copyright (c) Florian Plesker
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of
+ * this software and associated documentation files (the "Software"), to deal in
+ * the Software without restriction, including without limitation the rights to use,
+ * copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the
+ * Software, and to permit persons to whom the Software is furnished to do so,
+ * subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+ * HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+ * WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+ * OTHER DEALINGS IN THE SOFTWARE.
+ *
+ *
+ */
+
+/****************************** Header / Tabs / Window Buttons ******************************/
+
+/* vivaldi menu button */
+.vivaldi {
+    left: unset;
+    right: 87px;
+    top: 4px !important;
+    height: 32px !important;
+}
+
+#tabs-tabbar-container.top {
+    padding-top: 5px !important;
+    height: 32px !important;
+}
+
+/* tab container */
+#tabs-container.top {
+    padding-left: 8px !important;
+    padding-right: 130px !important;
+}
+
+/* tab background */
+.tab:not(.active) {
+    background: none !important;
+}
+
+/* hover animation */
+.tab.highlighted:not(.active) {
+    background: white !important;
+}
+
+/* tab header alignment */
+.tab-position .tab .tab-header {
+    flex: 0 0 32px;
+}
+
+/* tab close button */
+.close {
+    background: none;
+    margin-top: 2px;
+}
+
+/* trash button */
+.toggle-trash {
+    margin-bottom: 2px;
+}
+
+/* top right button menu */
+#titlebar > .window-buttongroup {
+    top: 10px !important;
+    right: 10px !important;
+}
+
+/* new tab */
+.button-toolbar.newtab {
+    margin-left: 2px;
+}
+
+
+/********************************* Navigation / Search Bar **********************************/
+
+/* Main toolbar */
+.toolbar-mainbar {
+    height: 40px;
+}
+
+.toolbar.toolbar-droptarget.toolbar-mainbar.toolbar-large {
+    padding-top: 3px !important;
+}
+
+/* Hide bottom black hline */
+.address-top .toolbar-mainbar:after {
+    height: 0;
+}
+
+/* Main search bar */
+.UrlBar-AddressField {
+    height: 30px;
+    padding: 0 5px 0 8px;
+    border-radius: 15px;
+}
+
+/************************************** Bookmark Bar ****************************************/
+
+.bookmark-bar {
+    height: 32px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+}
+
+.bookmarkbarItem {
+    border-radius: 6px !important;
+}
+
+
+/***************************************** Utils *******************************************/
+
+input[type=search] {
+    padding: 5px 3px 5px 12px;
+}
