@@ -26,23 +26,41 @@
 
 /****************************** Header / Tabs / Window Buttons ******************************/
 
+/* Top bar offset in maximum mode */
+.maximized.linux .topmenu {
+    margin-top: 5px;
+}
+
 /* vivaldi menu button */
 .vivaldi {
     left: unset;
-    right: 87px;
+    right: 92px;
     top: 4px !important;
     height: 32px !important;
 }
 
-#tabs-tabbar-container.top {
+#tabs-tabbar-container:not(.none).top {
     padding-top: 5px !important;
     height: 32px !important;
 }
 
 /* tab container */
-#tabs-container.top {
+#tabs-container:not(.none).top {
     padding-left: 8px !important;
     padding-right: 130px !important;
+}
+
+/* tab bar in case of menu position horizontal */
+.horizontal-menu #tabs-container:not(.none).top {
+    padding-left: 8px !important;
+    padding-right: 7px !important;
+}
+
+/* tab bar in case of left side window buttons */
+
+.alt #tabs-container:not(.none).top {
+    padding-left: 90px !important;
+    padding-right: 33px !important;
 }
 
 /* tab background */
