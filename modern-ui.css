@@ -76,12 +76,15 @@
 /* tab header alignment */
 .tab-position .tab .tab-header {
     flex: 0 0 32px;
+    padding-left: 8px;
+    padding-right: 1px;
+    padding-top: 8px;
 }
 
 /* tab close button */
 .close {
     background: none;
-    margin-top: 2px;
+    margin-top: 1px;
 }
 
 /* trash button */
