@@ -26,6 +26,10 @@
 
 /****************************** Header / Tabs / Window Buttons ******************************/
 
+#titlebar {
+    height: 100%;
+}
+
 /* Top bar offset in maximum mode */
 .maximized.linux .topmenu {
     margin-top: 5px;
@@ -93,9 +97,11 @@
 }
 
 /* top right button menu */
-#titlebar > .window-buttongroup {
-    top: 10px !important;
+#header > #titlebar > .window-buttongroup {
     right: 10px !important;
+    top: 0!important;
+    height: 100%;
+    align-items: center;
 }
 
 /* new tab */
@@ -142,6 +148,7 @@
 
 /***************************************** Utils *******************************************/
 
+/* fix offset in input fields */
 input[type=search] {
     padding: 5px 3px 5px 12px;
 }
