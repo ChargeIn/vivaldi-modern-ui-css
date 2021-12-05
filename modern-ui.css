@@ -99,7 +99,7 @@
 /* top right button menu */
 #header > #titlebar > .window-buttongroup {
     right: 10px !important;
-    top: 0!important;
+    top: 0 !important;
     height: 100%;
     align-items: center;
 }
@@ -110,7 +110,7 @@
 }
 
 /* Sound icon alignment */
-.tab-audio{
+.tab-audio {
     margin-top: 3px;
 }
 
@@ -135,6 +135,16 @@
     height: 30px;
     padding: 0 5px 0 8px;
     border-radius: 15px;
+}
+
+/** loading progress bar **/
+.UrlBar-AddressField .pageload .pageload-indicator {
+    position: absolute;
+    width: auto;
+    height: 30px;
+    left: -1px;
+    right: -1px;
+    top: -1px;
 }
 
 /************************************** Bookmark Bar ****************************************/
