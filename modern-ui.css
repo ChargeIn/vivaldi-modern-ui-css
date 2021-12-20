@@ -119,9 +119,15 @@
 /* Main toolbar */
 .toolbar-mainbar {
   height: 40px;
+  padding-right: 6px;
 }
 
 .toolbar.toolbar-droptarget.toolbar-mainbar.toolbar-large {
+  padding-top: 3px !important;
+}
+
+/* Profile button */
+.toolbar .profile-popup {
   padding-top: 3px !important;
 }
 
@@ -134,6 +140,7 @@
 .UrlBar-AddressField {
   height: 30px;
   padding: 0 5px 0 8px;
+  margin-right: 3px;
   border-radius: 15px;
 }
 
