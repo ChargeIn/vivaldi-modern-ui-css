@@ -27,142 +27,142 @@
 /****************************** Header / Tabs / Window Buttons ******************************/
 
 #titlebar {
-    height: 100%;
+  height: 100%;
 }
 
 /* Top bar offset in maximum mode */
 .maximized.linux .topmenu {
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
 /* vivaldi menu button */
 .vivaldi {
-    left: unset;
-    right: 92px;
-    top: 4px !important;
-    height: 32px !important;
+  left: unset;
+  right: 92px;
+  top: 4px !important;
+  height: 32px !important;
 }
 
 #tabs-tabbar-container:not(.none).top {
-    padding-top: 5px !important;
-    height: 32px !important;
+  padding-top: 5px !important;
+  height: 32px !important;
 }
 
 /* tab container */
 #tabs-container:not(.none).top {
-    padding-left: 8px !important;
-    padding-right: 130px !important;
+  padding-left: 8px !important;
+  padding-right: 130px !important;
 }
 
 /* tab bar in case of menu position horizontal */
 .horizontal-menu #tabs-container:not(.none).top {
-    padding-left: 8px !important;
-    padding-right: 7px !important;
+  padding-left: 8px !important;
+  padding-right: 7px !important;
 }
 
 /* tab bar in case of left side window buttons */
 
 .alt #tabs-container:not(.none).top {
-    padding-left: 90px !important;
-    padding-right: 33px !important;
+  padding-left: 90px !important;
+  padding-right: 33px !important;
 }
 
 /* tab background */
 .tab:not(.active) {
-    background: none !important;
+  background: none !important;
 }
 
 /* hover animation */
 .tab.highlighted:not(.active) {
-    background: white !important;
+  background: white !important;
 }
 
 /* tab header alignment */
 .tab-position .tab .tab-header {
-    flex: 0 0 32px;
-    padding-left: 8px;
-    padding-right: 1px;
-    padding-top: 8px;
+  flex: 0 0 32px;
+  padding-left: 8px;
+  padding-right: 1px;
+  padding-top: 8px;
 }
 
 /* tab close button */
 .close {
-    background: none;
-    margin-top: 1px;
+  background: none;
+  margin-top: 1px;
 }
 
 /* trash button */
 .toggle-trash {
-    margin-bottom: 2px;
+  margin-bottom: 2px;
 }
 
 /* top right button menu */
 #header > #titlebar > .window-buttongroup {
-    right: 10px !important;
-    top: 0 !important;
-    height: 100%;
-    align-items: center;
+  right: 10px !important;
+  top: 0 !important;
+  height: 100%;
+  align-items: center;
 }
 
 /* new tab */
 .button-toolbar.newtab {
-    margin-left: 2px;
+  margin-left: 2px;
 }
 
 /* Sound icon alignment */
 .tab-audio {
-    margin-top: 3px;
+  margin-top: 3px;
 }
 
 /********************************* Navigation / Search Bar **********************************/
 
 /* Main toolbar */
 .toolbar-mainbar {
-    height: 40px;
+  height: 40px;
 }
 
 .toolbar.toolbar-droptarget.toolbar-mainbar.toolbar-large {
-    padding-top: 3px !important;
+  padding-top: 3px !important;
 }
 
 /* Hide bottom black hline */
 .address-top .toolbar-mainbar:after {
-    height: 0;
+  height: 0;
 }
 
 /* Main search bar */
 .UrlBar-AddressField {
-    height: 30px;
-    padding: 0 5px 0 8px;
-    border-radius: 15px;
+  height: 30px;
+  padding: 0 5px 0 8px;
+  border-radius: 15px;
 }
 
 /** loading progress bar **/
 .UrlBar-AddressField .pageload .pageload-indicator {
-    position: absolute;
-    width: auto;
-    height: 30px;
-    left: -1px;
-    right: -1px;
-    top: -1px;
+  border-radius: 14px;
+  position: absolute;
+  width: auto;
+  height: 30px;
+  left: -1px;
+  right: -1px;
+  top: -1px;
 }
 
 /************************************** Bookmark Bar ****************************************/
 
 .bookmark-bar {
-    height: 32px;
-    padding-bottom: 2px;
-    padding-left: 5px;
+  height: 32px;
+  padding-bottom: 2px;
+  padding-left: 5px;
 }
 
 .bookmarkbarItem {
-    border-radius: 6px !important;
+  border-radius: 6px !important;
 }
-
 
 /***************************************** Utils *******************************************/
 
 /* fix offset in input fields */
-input[type=search] {
-    padding: 5px 3px 5px 12px;
+input[type="search"] {
+  padding: 5px 3px 5px 12px;
 }
